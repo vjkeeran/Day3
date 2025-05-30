@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cat Breeds Gallery</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Cat Breeds Gallery</h1>
+
+  <div class="gallery">
+    <!-- Repeat for each breed -->
+    <div class="image-box">
+      <img src="Persian-cat-900x600.jpg" alt="Persian Cat" />
+      <div class="caption">Persian Cat</div>
+      <div class="description" data-index="0">Click for more info</div>
+    </div>
+
+    <div class="image-box">
+        <img src="MAine-Coon-Giant.jpg" alt="Maine-Coon-Giant Cat" />
+        <div class="caption">Maine Coon Cat</div>
+        <div class="description" data-index="1">Click for more info</div>
+    </div>
+
+    <div class="image-box">
+        <img src="RagDoll.jpg" alt="RagDoll Cat" />
+        <div class="caption">RagDoll Cat</div>
+        <div class="description" data-index="2">Click for more info</div>
+    </div>
+
+    <div class="image-box">
+        <img src="Bengal_PA_Chanan.jpg" alt="Bengal Cat" />
+        <div class="caption">Bengal Cat</div>
+        <div class="description" data-index="3">Click for more info</div>
+    </div>
+
+    <div class="image-box">
+        <img src="ScottishFold-1440x980.jpg" alt="Scottish Fold Cat" />
+        <div class="caption">Scottish Fold Cat</div>
+        <div class="description" data-index="4">Click for more info</div>
+    </div>    
+
+  </div>
+
+  <!-- Info Box -->
+  <div id="infoBox" class="info-box">
+    <h2 id="infoHeading"></h2>
+    <p id="infoText"></p>
+    <a href="#" id="closeLink">Close</a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
